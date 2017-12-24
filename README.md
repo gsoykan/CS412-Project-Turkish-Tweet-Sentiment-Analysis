@@ -1,12 +1,12 @@
 SENTIMENT ANALYSIS - TURKISH TWEETS  - Detailed Report Can Be Found in "Report" file.
-Project Report
-Problem Definition
+Project Report:
+Problem Definition:
  	Given a tweet about banks written in Turkish, the team was asked to classify its polarity (how positive a review is it) as a score between -1 (very negative) to +1 (very positive); so this is a regression problem.
  E.g. “alt tarafi ATM karti istiyoruz. 5 aydir ne gelen ne giden. Para cekmek icin subeye gitmek
  zorundamiyim???” -> -0.8 (quite negative comment)
  “sorun çözüldü, tesekkürler!”-> +1 (fully positive comment)
 
-Our Approach 
+Our Approach:  
 	After proper investigation of the train and test sets, the team devised a way to tackle with this problem. Since we would be dealing with tweets our approach revolved around that. Initial step to be taken was “text cleaning”.  That was an essential step because the data was highly unstructured and noisy meaning the tweets were raw data and far away from the proper Turkish language. After this step, we needed to extract features which then combined with the given features. The extracted features are as follows:
 o	Number of question marks
 o	Number of exclamation marks
